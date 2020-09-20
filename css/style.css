@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: rgb(119, 170, 209);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.form-info{
+    max-width: 700px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.form-info p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.form-info button{
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 45px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.form-info span{
+    font-weight: 500;
+}
+
+.quiz-box{
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.quiz-box .quiz-number{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.quiz-box .question-text{
+    font-size: 22px;
+    color: #000000;
+    line-height: 25px;
+    margin: 20px 0;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.quiz-box .option-container .option{
+    margin-left: 10px;
+    display: block;
+    background-color: #ffffff;
+    border-style: solid;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+.quiz-box .option-container .option:hover{
+    background-color: rgb(119, 170, 209);
+    color: white;
+
+}
+.quiz-box .option-container .question-name{
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+ img {
+     border-radius: 8px;
+     margin: 10px 0;
+     border-style: solid;
+
+ }
+ .paginator-form{
+    margin: 0px 20px;
+ }
+ .paginator-form nav{
+     margin-top: 20px;
+     padding: 10px 0px;
+ }
